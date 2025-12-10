@@ -46,3 +46,11 @@
     
 }
 
+
+/* forgot-password-page styles:*/
+
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
