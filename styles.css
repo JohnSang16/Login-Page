@@ -1,3 +1,16 @@
+:root{
+    --text-color: #F9F9F9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+
 .login-wrapper{
     display: flex;
     flex-direction: column;
@@ -47,10 +60,25 @@
 }
 
 
+#login-btn{
+    display:block;
+    width: 100%;
+    background-color: rgb(252, 50, 50);
+    color: var(--text-color);
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: medium;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
 /* forgot-password-page styles:*/
 
 .search-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
