@@ -1,0 +1,29 @@
+#username{
+    width: px;
+
+}
+
+.password-box{
+    display:flex;
+    flex-direction: column;
+}
+
+.password-input-wrapper{
+    position: relative;
+    width: max-content;
+}
+
+#password{
+    height: 15px;
+}
+
+#visibility{
+    position: absolute;
+    top:0;
+    right:0;
+    border:none;
+    background: none;
+    cursor: pointer;
+    
+}
+
